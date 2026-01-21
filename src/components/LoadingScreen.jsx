@@ -7,8 +7,8 @@ export const LoadingCreen = ({ onComplete }) => {
   useEffect(() => {
     let index = 0;
     const interval = setInterval(() => {
-      setText(fullText.substring(0, index));
       index++;
+      setText(fullText.substring(0, index));
 
       if (index > fullText.length) {
         clearInterval(interval);
@@ -44,5 +44,5 @@ export const LoadingCreen = ({ onComplete }) => {
         <div className="w-[40%] h-full bg-blue-500 shadow-[0_0_15px_#3b82f6] animate-loading-bar"></div>
       </div>
     </div>
-  );service_v7bhsue
+  );
 };

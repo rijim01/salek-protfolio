@@ -14,7 +14,7 @@ export const Publications = ({ limit }) => {
     >
       <RevealOnScroll>
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-4xl font-bold mb-12 text-center bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
+          <h2 className="text-4xl font-bold mb-12 text-center bg-linear-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
             Publications & Research
           </h2>
 
